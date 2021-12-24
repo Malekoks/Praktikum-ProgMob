@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailMain"
+    android:background="#ffe8d6">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="100dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                app:cardBackgroundColor="#cb997e"
+                card_view:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:text="Data Akun"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textnama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dd"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Nama"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textnama"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:text="Nama"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Email"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textemail"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:text="Email"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/email"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Password"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textpass"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:text="Password"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/textjk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pass"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Jenis Kelamin"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/jk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textjk"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:text="Jenis Kelamin"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/textgej"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/jk"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Gejala"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/gej"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textgej"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:text="Gejala"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="35dp" />
+
+                    <TextView
+                        android:id="@+id/textumur"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/gej"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Umur"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/umur"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textumur"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="35dp"
+                        android:text="100"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="35dp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
